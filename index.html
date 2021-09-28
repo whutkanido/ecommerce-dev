@@ -6,12 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedalzone</title>
     <!-- font-->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.css" integrity="sha512-99Jv9bnC6+yuTTtEXE6/KsSP9gND0QcWr67ruFLD1SFjuByhA8W7VY3OIqco8KToCVt98CAFoEPXcrsebU5mow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<script src="app.js
-"></script>   
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <img src="./images/logo.svg" alt="store logo" />
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar-->
+    <!-- hero -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">pedal collection</h1>
+            <button class="banner-btn">shop now</button>
+        </div>
+    </header>
+    <!-- end hero -->
+
+    <!-- products -->
+    <section class="products">
+        <div class="section-title">
+            <h2>our pedals</h2>
+        </div>
+        <div class="products-center">
+            <!-- single product 40:28 -->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/pedals/product-1.png" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to cart
+                    </button>
+                </div>
+                <h3>chase bliss mood</h3>
+                <h4>$349</h4>
+            </article>
+            <!-- end single product -->
+        </div>
+    </section>
+    <!-- end products -->
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <div class="cart-item">
+                    <img src="./images/pedals/product-2.png" alt="product">
+                </div>
+                <!-- end of cart item -->
+            </div>
+        </div>
+    </div>
+    <!-- end of cart-->
+<script src="app.js"></script>   
 </body>
 </html>
