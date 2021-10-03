@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "chase bliss mood",
+        "price": 349,
+        "image": { "fields": { "file": { "url": "./images/pedals/product-1.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "chase bliss dark world",
+        "price": 349,
+        "image": { "fields": { "file": { "url": "./images/pedals/product-2.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "chase bliss blooper",
+        "price": 499,
+        "image": { "fields": { "file": { "url": "./images/pedals/product-3.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "chase bliss cxm 1978",
+        "price": 899,
+        "image": { "fields": { "file": { "url": "./images/pedals/product-4.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "mask audio eldritch blast",
+        "price": 235,
+        "image": { "fields": { "file": { "url": "./images/pedals/product-5.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "eae hypersleep",
+        "price": 299,
+        "image": { "fields": { "file": { "url": "./images/pedals/product-6.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "eae longsword",
+        "price": 249,
+        "image": { "fields": { "file": { "url": "./images/pedals/product-7.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "hologram microcosm",
+        "price": 449,
+        "image": { "fields": { "file": { "url": "./images/pedals/product-8.png" } } }
+      }
+    }
+  ]
+}
